@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.exampl.gdgu.MainActivity3" >
+    
+    
+    <WebView
+       android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+
+</LinearLayout>
+
+
+<!-- From: file:/F:/parth/ANDROID/gdgu1/app/src/main/res/layout/activity_main3.xml -->

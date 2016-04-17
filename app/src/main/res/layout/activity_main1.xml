@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.exampl.gdgu.MainActivity1" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text=">>CAO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="15dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text=">>Numerical Methods"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text=">>Software Engineering"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+     <TextView
+         android:id="@+id/TextView04"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/TextView03"
+         android:layout_below="@+id/TextView03"
+         android:layout_marginTop="20dp"
+         android:autoLink="all"
+         android:clickable="true"
+         android:text=">>Programming Languages"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#ffffff"
+         android:textSize="20sp" />
+     
+      <TextView
+          android:id="@+id/TextView05"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/TextView04"
+          android:layout_below="@+id/TextView04"
+          android:layout_marginTop="20dp"
+          android:autoLink="all"
+          android:clickable="true"
+          android:text=">>Sociology/Psychology"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="#ffffff"
+          android:textSize="20sp" />
+      
+       <TextView
+           android:id="@+id/TextView06"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/TextView05"
+           android:layout_below="@+id/TextView05"
+           android:layout_marginTop="20dp"
+           android:autoLink="all"
+           android:clickable="true"
+           android:text=">>TOC"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#ffffff"
+           android:textSize="20sp" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="37dp"
+           android:autoLink="all"
+           android:clickable="true"
+           android:onClick="clickable"
+           android:text=">>Databse Management System"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#ffffff"
+           android:textSize="20sp" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/TextView06"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="29dp"
+           android:onClick="back"
+           android:text="&lt;&lt;Back" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/button1"
+           android:layout_alignParentRight="true"
+           android:onClick="home"
+           android:text="home" />
+
+</RelativeLayout>

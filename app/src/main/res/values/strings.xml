@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COURSEMATE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="strArr">
+        <item >select</item>
+        <item >Cse</item>
+        <item >Mec</item>
+        <item >Civil</item>
+    </string-array><string-array name="strArr1">
+         <item>select</item>
+         <item>1st</item>
+         <item>2nd</item>
+         <item>3rd</item>
+         <item>4th</item>
+        
+    </string-array>
+    
+    
+
+</resources>
